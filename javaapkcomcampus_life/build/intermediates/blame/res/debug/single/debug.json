@@ -24,12 +24,12 @@
         "source": "/home/yf/person/other/SouceCode/library/build/intermediates/packaged_res/debug/drawable-hdpi-v4/vpi__tab_selected_pressed_holo.9.png"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_info_main.xml.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/info_main.xml"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_button_topcurrent_bg.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/button_topcurrent_bg.9.png"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_info_main.xml.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/info_main.xml"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_divider_horizontal_timeline.png.flat",
@@ -52,12 +52,12 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/activity_release.xml"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_locus_round_click_error.png.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/locus_round_click_error.png"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable_btn_register_selector.xml.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable/btn_register_selector.xml"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_locus_round_click_error.png.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/locus_round_click_error.png"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-xhdpi-v4_vpi__tab_selected_holo.9.png.flat",
@@ -192,12 +192,12 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/welcome_31.jpg"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_bg_input_bar.9.png.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/bg_input_bar.9.png"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_ic_listitem_bg_first_normal.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/ic_listitem_bg_first_normal.9.png"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_bg_input_bar.9.png.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/bg_input_bar.9.png"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_dh02_64.png.flat",
@@ -232,16 +232,20 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/mm_listitem_pressed.9.png"
     },
     {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_activity_forget_pwd.xml.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/activity_forget_pwd.xml"
+    },
+    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_message_list_item.xml.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/message_list_item.xml"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_ly02_64.png.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/ly02_64.png"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_guide_item_03.xml.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/guide_item_03.xml"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_ly02_64.png.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/ly02_64.png"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
@@ -308,16 +312,16 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/ic_listitem_bg_first_pressed.9.png"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/activity_login.xml"
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_welcome_3.jpg.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/welcome_3.jpg"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_custom_tab_indicator_unselected_focused.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/custom_tab_indicator_unselected_focused.9.png"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_welcome_3.jpg.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/welcome_3.jpg"
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/activity_login.xml"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_pattern_solidline.png.flat",
@@ -336,12 +340,12 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/delete_phote.png"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_shop_list_item.xml.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/shop_list_item.xml"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_ic_listitem_bg_normal.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/ic_listitem_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_shop_list_item.xml.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/shop_list_item.xml"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable_tel_bg.xml.flat",
@@ -356,12 +360,12 @@
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/wdly2.jpg"
     },
     {
-        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_gv_5.png.flat",
-        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/gv_5.png"
-    },
-    {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_btn_bg_blue_up.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/btn_bg_blue_up.9.png"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_gv_5.png.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/gv_5.png"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_custom_tab_indicator_divider.9.png.flat",
@@ -618,6 +622,10 @@
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_spinner.9.png.flat",
         "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/drawable-hdpi/spinner.9.png"
+    },
+    {
+        "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/layout_activity_modifyt_pwd.xml.flat",
+        "source": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/res/layout/activity_modifyt_pwd.xml"
     },
     {
         "merged": "/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/res/merged/debug/drawable-hdpi_gv_7.png.flat",

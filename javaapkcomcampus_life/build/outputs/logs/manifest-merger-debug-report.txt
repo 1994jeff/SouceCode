@@ -1,38 +1,38 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
 MERGED from [:library] /home/yf/person/other/SouceCode/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:cardview-v7:21.0.3] /home/yf/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/94093ebcbd3e6f38ad939dcf7847f273/AndroidManifest.xml:14:4-17:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:1-63:12
 	package
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:3:5-38
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:3:11-44
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:5:5-30
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:5:11-36
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:4:5-28
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:4:11-34
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 uses-sdk
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:41
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:40
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:40
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:40
 MERGED from [:library] /home/yf/person/other/SouceCode/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:40
 MERGED from [:library] /home/yf/person/other/SouceCode/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:40
 MERGED from [com.android.support:cardview-v7:21.0.3] /home/yf/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/94093ebcbd3e6f38ad939dcf7847f273/AndroidManifest.xml:15:5-42
 MERGED from [com.android.support:cardview-v7:21.0.3] /home/yf/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/94093ebcbd3e6f38ad939dcf7847f273/AndroidManifest.xml:15:5-42
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:40
+INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:7:5-9:40
 	android:targetSdkVersion
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:9:9-38
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
@@ -42,136 +42,152 @@ INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/And
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 		INJECTED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:11:5-67
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:11:5-66
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:12:5-79
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:12:5-78
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:12:22-76
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:13:5-84
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:13:5-83
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:13:22-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:14:5-81
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:14:5-80
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:14:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:15:5-69
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:15:5-68
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:15:22-66
 uses-permission#android.permission.SEND_SMS
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:16:5-67
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:16:5-66
 	android:name
 		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:17:5-74
+	android:name
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:17:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:18:22-77
 application
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:18:5-56:19
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:20:5-61:19
 MERGED from [com.android.support:cardview-v7:21.0.3] /home/yf/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/94093ebcbd3e6f38ad939dcf7847f273/AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:cardview-v7:21.0.3] /home/yf/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/94093ebcbd3e6f38ad939dcf7847f273/AndroidManifest.xml:16:5-19
 	android:label
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:24:9-41
 	android:icon
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:21:9-37
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:23:9-37
 	android:allowBackup
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:23:9-62
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:25:9-62
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:19:9-57
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:21:9-57
 activity#com.yhx.app.campus_life.MainActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:24:9-34:20
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:26:9-36:20
 	android:screenOrientation
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:29:13-49
 	android:configChanges
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:27:13-83
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:28:13-83
 	android:theme
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:26:13-52
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:30:13-52
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:25:13-64
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:30:17-69
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:32:17-68
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:32:17-77
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:34:17-76
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:34:27-74
 activity#com.yhx.app.lock.SetPasswordActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:35:9-38:52
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:37:9-40:51
 	android:screenOrientation
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:40:13-49
 	android:configChanges
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:37:13-83
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:39:13-83
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:36:13-64
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:38:13-64
 activity#com.yhx.app.campus_life.PersonnalActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:39:9-78
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:41:9-54
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:39:19-75
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:41:19-52
 activity#com.yhx.app.campus_life.LoginActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:40:9-74
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:42:9-50
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:40:19-71
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:42:19-48
 activity#com.yhx.app.campus_life.UserRegisterActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:41:9-81
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:43:9-57
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:41:19-78
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:43:19-55
 activity#com.yhx.app.campus_life.ReleaseActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:42:9-76
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:44:9-52
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:42:19-73
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:44:19-50
 activity#com.yhx.app.campus_life.MyReleaseActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:43:9-78
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:45:9-54
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:43:19-75
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:45:19-52
 activity#com.yhx.app.campus_life.ShopInfoActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:44:9-77
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:46:9-53
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:44:19-74
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:46:19-51
 activity#com.yhx.app.campus_life.PicturePreview
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:45:9-75
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:47:9-51
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:45:19-72
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:47:19-49
 activity#com.yhx.app.campus_life.ShopListActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:46:9-77
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:48:9-53
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:46:19-74
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:48:19-51
 activity#com.yhx.app.campus_life.LeaveMessageActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:47:9-81
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:49:9-57
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:47:19-78
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:49:19-55
 activity#com.yhx.app.campus_life.MyMsgActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:48:9-74
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:50:9-50
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:48:19-71
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:50:19-48
 activity#com.yhx.app.campus_life.MyCollectionActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:49:9-81
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:51:9-57
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:49:19-78
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:51:19-55
 activity#com.yhx.app.campus_life.LookActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:50:9-73
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:52:9-49
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:50:19-70
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:52:19-47
 activity#com.yhx.app.campus_life.MyLookActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:51:9-75
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:53:9-51
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:51:19-72
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:53:19-49
 activity#com.yhx.app.campus_life.LookInfoActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:52:9-77
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:54:9-53
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:52:19-74
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:54:19-51
 activity#com.yhx.app.campus_life.LookListActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:53:9-77
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:55:9-53
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:53:19-74
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:55:19-51
 activity#com.yhx.app.campus_life.AboutActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:54:9-74
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:56:9-50
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:54:19-71
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:56:19-48
 activity#com.yhx.app.campus_life.UpdateInfoActivity
-ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:55:9-79
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:57:9-55
 	android:name
-		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:55:19-76
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:57:19-53
+activity#com.yhx.app.campus_life.ForgetPwdActivity
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:58:9-54
+	android:name
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:58:19-52
+activity#com.yhx.app.campus_life.ModifyPwdActivity
+ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:59:9-60:20
+	android:name
+		ADDED from /home/yf/person/other/SouceCode/javaapkcomcampus_life/src/main/AndroidManifest.xml:59:19-52

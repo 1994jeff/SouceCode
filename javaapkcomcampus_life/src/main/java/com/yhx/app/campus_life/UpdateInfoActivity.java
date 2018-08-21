@@ -74,6 +74,9 @@ public class UpdateInfoActivity extends UserRegisterActivity {
                             eidt.putString(
                                     "pw",
                                     json.getString("password"));
+                            eidt.putString(
+                                    "phone",
+                                    json.getString("phone"));
                             eidt.commit();
                         }
                         myApplication.userMap.put(

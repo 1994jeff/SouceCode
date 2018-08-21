@@ -10,19 +10,15 @@ import org.json.JSONObject;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Message;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,6 +40,7 @@ public class LoginActivity extends Activity {
 	private SharedPreferences sp;
 	private MyApplication myApplication;
 	private Dialog dialog;
+	private TextView forgetPwd;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +49,14 @@ public class LoginActivity extends Activity {
 		myApplication = (MyApplication) this.getApplicationContext();
 		myApplication.addActivity(this);
 		sp = this.getSharedPreferences("User.xml", MODE_PRIVATE);
+
+		forgetPwd = (TextView) findViewById(R.id.forgetPwd);
+		forgetPwd.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivity(new Intent(LoginActivity.this,ForgetPwdActivity.class));
+			}
+		});
 		tv = (TextView) this.findViewById(R.id.title_tv);
 		tv.setText("登陆");
 		et_name = (EditText) this.findViewById(R.id.et_name);
@@ -157,7 +162,7 @@ public class LoginActivity extends Activity {
 													myApplication.userMap.put(
 															"user", user);
 													
-													Toast.makeText(LoginActivity.this, "登录成功", 0).show();
+													Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
 													LoginActivity.this.finish();
 												} catch (JSONException e) {
 													e.printStackTrace();

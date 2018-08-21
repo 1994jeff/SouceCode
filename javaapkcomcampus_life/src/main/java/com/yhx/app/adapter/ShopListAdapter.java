@@ -101,8 +101,10 @@ public class ShopListAdapter extends BaseAdapter{
         ImageLoaderConfiguration imageLoaderConfiguration = ImageLoaderConfiguration.createDefault(context);
         ImageLoader imageLoader = ImageLoader.getInstance();
         imageLoader.init(imageLoaderConfiguration);
-        String path = Constants.URL+"/Trade/images/"+picture;
-        imageLoader.displayImage(path, vh.iv_list_img);
+        if(!picture.contains("http")){
+			picture = Constants.URL+"/Trade/images/"+picture;
+		}
+        imageLoader.displayImage(picture, vh.iv_list_img);
         return convertView;
 	}
 	private class ViewHolder {

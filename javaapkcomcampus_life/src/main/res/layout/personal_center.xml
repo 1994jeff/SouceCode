@@ -63,7 +63,7 @@
         android:id="@+id/my"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/btn_last_selector"
+        android:background="@drawable/btn_middle_selector"
         android:drawableRight="@drawable/arrow"
         android:gravity="center_vertical"
         android:paddingLeft="20dp"
@@ -71,6 +71,20 @@
         android:drawableLeft="@drawable/city"
         android:textSize="15sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_last_selector"
+        android:drawableRight="@drawable/arrow"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:text="修改密码"
+        android:drawableLeft="@drawable/ly01_64"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"

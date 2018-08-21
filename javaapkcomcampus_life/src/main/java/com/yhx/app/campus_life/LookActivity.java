@@ -21,6 +21,7 @@ import com.yhx.app.service.MyApplication;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -29,6 +30,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Message;
 import android.provider.MediaStore;
+import android.text.InputType;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -59,17 +61,26 @@ public class LookActivity extends Activity {
 	private Button release;
 	private String type = "fffff";
 	private MyApplication myApplication;
+	private SharedPreferences sp;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_look);
+		sp = this.getSharedPreferences("User.xml", MODE_PRIVATE);
 		myApplication = (MyApplication) this.getApplicationContext();
 		myApplication.addActivity(this);
+		Users user = (Users) myApplication.userMap.get("user");
+		if(user==null){
+			Toast.makeText(this,"对不起，请先登录!",Toast.LENGTH_SHORT).show();
+			finish();
+			return;
+		}
 		title = (TextView) this.findViewById(R.id.title_tv);
 		title.setText("许愿墙");
 		shopname = (EditText) this.findViewById(R.id.releaseTitle);
 		userPhone = (EditText) this.findViewById(R.id.link);
+		userPhone.setText(user.getPhone());
 		description = (EditText) this.findViewById(R.id.describe);
 		btn_back = (Button) this.findViewById(R.id.button_back);
 		btn_back.setOnClickListener(new OnClickListener() {

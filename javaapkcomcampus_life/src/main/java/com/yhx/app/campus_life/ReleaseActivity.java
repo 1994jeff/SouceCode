@@ -73,11 +73,17 @@ public class ReleaseActivity extends Activity {
 		myApplication = (MyApplication) this
 				.getApplicationContext();
 		myApplication.addActivity(this);
+		Users user = (Users) myApplication.userMap.get("user");
+		if(user==null){
+			Toast.makeText(this,"对不起，请先登录!",Toast.LENGTH_SHORT).show();
+			finish();
+			return;
+		}
 		title = (TextView) this.findViewById(R.id.title_tv);
 		title.setText("发布商品");
 		shopname = (EditText) this.findViewById(R.id.releaseTitle);
-//		price = (EditText) this.findViewById(R.id.releasePrice);
 		userPhone = (EditText) this.findViewById(R.id.link);
+		userPhone.setText(user.getPhone());
 		description = (EditText) this.findViewById(R.id.describe);
 		addPicLayout = (LinearLayout) this.findViewById(R.id.addPicLayout);
 		btn_back = (Button) this.findViewById(R.id.button_back);

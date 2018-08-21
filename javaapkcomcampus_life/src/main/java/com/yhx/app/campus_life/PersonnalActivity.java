@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class PersonnalActivity extends Activity implements OnClickListener {
-	private TextView title, publish,message,collection,look,my;
+	private TextView title, publish,message,collection,look,my,pwd;
 	private Button btn_back, btn_right;
 	private MyApplication myApplication;
 	private Intent intent;
@@ -37,6 +37,7 @@ public class PersonnalActivity extends Activity implements OnClickListener {
 			TextView gallery = (TextView) dialogView.findViewById(R.id.gallery);
 			gallery.setVisibility(View.GONE);
 			TextView camera = (TextView) dialogView.findViewById(R.id.camera);
+
 			camera.setVisibility(View.GONE);
 			final Dialog dialog = new Dialog(PersonnalActivity.this,
 					R.style.myDialogTheme);
@@ -82,6 +83,14 @@ public class PersonnalActivity extends Activity implements OnClickListener {
 		//我的信息
 		my = (TextView) this.findViewById(R.id.my);
 		my.setOnClickListener(this);
+		//修改密码
+		pwd = (TextView) findViewById(R.id.pwd);
+		pwd.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				startActivity(new Intent(PersonnalActivity.this,ModifyPwdActivity.class));
+			}
+		});
 		collection = (TextView) this.findViewById(R.id.collection);
 		collection.setOnClickListener(this);
 		look = (TextView) this.findViewById(R.id.look);

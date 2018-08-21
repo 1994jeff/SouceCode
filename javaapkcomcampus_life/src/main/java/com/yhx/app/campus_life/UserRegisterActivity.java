@@ -141,17 +141,20 @@ public class UserRegisterActivity extends Activity {
         boolean protocol = ((CheckBox) this.findViewById(R.id.cb_protocol))
                 .isChecked();
         if (username == null || username.equals("")) {
-            Toast.makeText(this, "用户名不能为空", 1).show();
+            Toast.makeText(this, "用户名不能为空", Toast.LENGTH_SHORT).show();
             return false;
         } else if (school == null || school.equals("")) {
-            Toast.makeText(this, "学校不能为空", 1).show();
+            Toast.makeText(this, "学校不能为空", Toast.LENGTH_SHORT).show();
             return false;
         } else if (!protocol) {
-            Toast.makeText(this, "必须同意协议", 1).show();
+            Toast.makeText(this, "必须同意协议", Toast.LENGTH_SHORT).show();
             return false;
         } else if (phone == null || phone.equals("")) {
-            Toast.makeText(this, "联系号码不能为空", 1).show();
-//            return false;
+            Toast.makeText(this, "联系号码不能为空", Toast.LENGTH_SHORT).show();
+            return false;
+        } else if (phone.length()!=11) {
+            Toast.makeText(this, "联系号码必须为11位", Toast.LENGTH_SHORT).show();
+            return false;
         }
         if (pwdCheck()) return false;
 
@@ -160,7 +163,7 @@ public class UserRegisterActivity extends Activity {
 
     public boolean pwdCheck() {
         if (pwd == null || pwd.equals("")) {
-            Toast.makeText(this, "密码不能为空", 1).show();
+            Toast.makeText(this, "密码不能为空", Toast.LENGTH_SHORT).show();
             return true;
         }
         return false;

@@ -14,6 +14,8 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:name="com.yhx.app.service.MyApplication"
@@ -55,6 +57,9 @@
         <activity android:name="com.yhx.app.campus_life.LookListActivity" />
         <activity android:name="com.yhx.app.campus_life.AboutActivity" />
         <activity android:name="com.yhx.app.campus_life.UpdateInfoActivity" />
+        <activity android:name="com.yhx.app.campus_life.ForgetPwdActivity" />
+        <activity android:name="com.yhx.app.campus_life.ModifyPwdActivity" >
+        </activity>
     </application>
 
 </manifest>

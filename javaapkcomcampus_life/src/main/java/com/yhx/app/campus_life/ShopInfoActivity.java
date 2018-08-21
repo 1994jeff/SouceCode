@@ -81,6 +81,10 @@ public class ShopInfoActivity extends Activity {
 			for (String string : strings) {
 				i += 1;
 				if (string != null) {
+					Log.i("jeff",string);
+					if(!string.contains("http")){
+						string = Constants.URL+"/Trade/images/"+string;
+					}
 					new MyTask().execute(string, i + "");
 				}
 			}
