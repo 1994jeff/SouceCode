@@ -13,6 +13,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.yhx.app.campus_life.R;
+import com.yhx.app.common.Constants;
 import com.yhx.app.common.HttpHelper;
 import com.yhx.app.entity.ItemList;
 
@@ -99,7 +101,8 @@ public class ShopListAdapter extends BaseAdapter{
         ImageLoaderConfiguration imageLoaderConfiguration = ImageLoaderConfiguration.createDefault(context);
         ImageLoader imageLoader = ImageLoader.getInstance();
         imageLoader.init(imageLoaderConfiguration);
-        imageLoader.displayImage(picture, vh.iv_list_img);
+        String path = Constants.URL+"/Trade/images/"+picture;
+        imageLoader.displayImage(path, vh.iv_list_img);
         return convertView;
 	}
 	private class ViewHolder {

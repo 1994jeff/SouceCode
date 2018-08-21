@@ -1,4 +1,4 @@
-#Mon Aug 20 21:26:13 CST 2018
+#Tue Aug 21 19:06:22 CST 2018
 path.3=classes.dex
 path.2=classes.dex
 path.1=classes.dex
@@ -7,7 +7,7 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.3=/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/13
-base.2=/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/14
-base.1=/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/11
-base.0=/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/12
+base.3=/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/13
+base.2=/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/11
+base.1=/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/14
+base.0=/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/12

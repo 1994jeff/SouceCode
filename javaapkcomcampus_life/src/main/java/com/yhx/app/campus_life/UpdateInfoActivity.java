@@ -37,64 +37,63 @@ public class UpdateInfoActivity extends UserRegisterActivity {
             finish();
             return;
         }
-        ((EditText)findViewById(R.id.et_email)).setText(u.getEmail());
-        ((EditText)findViewById(R.id.et_username)).setText(u.getUserName());
-        ((EditText)findViewById(R.id.et_user_pwd)).setText(u.getPassword());
-        ((EditText)findViewById(R.id.et_school)).setText(u.getSchool());
-        ((EditText)findViewById(R.id.et_court)).setText(u.getCourt());
-        ((EditText)findViewById(R.id.et_professional)).setText(u.getProfessional());
-        ((EditText)findViewById(R.id.phone)).setText(u.getPhone());
-//        param.put("username", u.getUserName());
-//        HttpHelper.asyncPost(Constants.URL
-//                        + "/Trade/query_user.do", param,
-//        new HttpHelper.Callback() {
-//            @Override
-//            public void dataLoaded(Message msg) {
-//                if (msg.what == 200) {
-//                    Users user = new Users();
-//                    try {
-//                        JSONObject json = new JSONObject(
-//                                msg.obj.toString());
-//                        user.setUserId(json
-//                                .getInt("userId"));
-//                        user.setUserName(json
-//                                .getString("userName"));
-//                        user.setEmail(json
-//                                .getString("email"));
-//                        user.setPassword(json
-//                                .getString("password"));
-//                        user.setSchool(json
-//                                .getString("school"));
-//                        user.setCourt(json
-//                                .getString("court"));
-//                        user.setProfessional(json
-//                                .getString("professional"));
-//                        user.setPhone(json.getString("phone"));
-//                        if (!sp.getString("user",
-//                                "")
-//                                .equals(json
-//                                        .getString("userName"))) {
-//                            SharedPreferences.Editor eidt = sp.edit();
-//                            eidt.putString(
-//                                    "user",
-//                                    json.getString("userName"));
-//                            eidt.putString(
-//                                    "pw",
-//                                    json.getString("password"));
-//                            eidt.commit();
-//                        }
-//                        MyApplication.getInstance().userMap.put(
-//                                "user", user);
+        param.put("username", u.getUserName());
+        HttpHelper.asyncPost(Constants.URL
+                        + "/Trade/query_user.do", param,
+        new HttpHelper.Callback() {
+            @Override
+            public void dataLoaded(Message msg) {
+                if (msg.what == 200) {
+                    Users user = new Users();
+                    try {
+                        JSONObject json = new JSONObject(
+                                msg.obj.toString());
+                        user.setUserId(json
+                                .getInt("userId"));
+                        user.setUserName(json
+                                .getString("userName"));
+                        user.setEmail(json
+                                .getString("email"));
+                        user.setPassword(json
+                                .getString("password"));
+                        user.setSchool(json
+                                .getString("school"));
+                        user.setCourt(json
+                                .getString("court"));
+                        user.setProfessional(json
+                                .getString("professional"));
+                        user.setPhone(json.getString("phone"));
+                        if (!sp.getString("user",
+                                "")
+                                .equals(json
+                                        .getString("userName"))) {
+                            SharedPreferences.Editor eidt = sp.edit();
+                            eidt.putString(
+                                    "user",
+                                    json.getString("userName"));
+                            eidt.putString(
+                                    "pw",
+                                    json.getString("password"));
+                            eidt.commit();
+                        }
+                        myApplication.userMap.put(
+                                "user", user);
+                        ((EditText)findViewById(R.id.et_email)).setText(user.getEmail());
+                        ((EditText)findViewById(R.id.et_username)).setText(user.getUserName());
+                        ((EditText)findViewById(R.id.et_user_pwd)).setText(user.getPassword());
+                        ((EditText)findViewById(R.id.et_school)).setText(user.getSchool());
+                        ((EditText)findViewById(R.id.et_court)).setText(user.getCourt());
+                        ((EditText)findViewById(R.id.et_professional)).setText(user.getProfessional());
+                        ((EditText)findViewById(R.id.phone)).setText(user.getPhone());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    onFailedRequest();
+                }
 
-//                    } catch (JSONException e) {
-//                        e.printStackTrace();
-//                    }
-//                } else {
-//                    onFailedRequest();
-//                }
-//
-//            }
-//        });
+            }
+        });
     }
 
     @Override
@@ -135,7 +134,7 @@ public class UpdateInfoActivity extends UserRegisterActivity {
         } else {
             Toast.makeText(
                     UpdateInfoActivity.this,
-                    msg.obj.toString(),
+                    "修改成功",
                     Toast.LENGTH_LONG).show();
         }
     }

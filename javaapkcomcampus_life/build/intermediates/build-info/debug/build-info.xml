@@ -6,99 +6,99 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1534772566708"
-    token="-7117573696317602069"
+    timestamp="1534849563012"
+    token="1506068306865001434"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1095" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="706" />
     <task
         name="verifier"
-        duration="0" />
+        duration="129" />
 
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
-        location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/instant-run-apk/debug/javaapkcomcampus_life-debug.apk"
+        location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/instant-run-apk/debug/javaapkcomcampus_life-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1534772566708"
+        timestamp="1534849563012"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/instant-run-apk/debug/javaapkcomcampus_life-debug.apk"
+            location="/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/instant-run-apk/debug/javaapkcomcampus_life-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

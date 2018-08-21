@@ -14,6 +14,7 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -337,6 +338,7 @@ public class MyReleaseActivity extends Activity implements UpdateHandler {
 						}
 						String json = (String) msg.obj;
 						PageModel<ItemList> pm = PageModel.jsonConvert(json);
+						Log.i("jeff",""+msg.obj);
 						listDatas.addAll(pm.getData());
 						adapter.setItemList(listDatas);
 						adapter.notifyDataSetChanged();

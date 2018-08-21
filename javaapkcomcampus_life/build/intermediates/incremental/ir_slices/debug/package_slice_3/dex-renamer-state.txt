@@ -1,4 +1,4 @@
-#Mon Aug 20 20:23:21 CST 2018
-base.0=/home/yf/Documents/Tencent Files/1056314392/FileRecv/SouceCode20180820/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/3
+#Tue Aug 21 19:06:21 CST 2018
+base.0=/home/yf/person/other/SouceCode/javaapkcomcampus_life/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex
